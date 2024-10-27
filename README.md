@@ -17,3 +17,16 @@ To install the pre-commit hooks, run:
 ```bash
 pre-commit install
 ```
+
+When updating the pre-commit hooks, run:
+
+```bash
+pre-commit clean
+pre-commit install
+```
+
+To run pre-commit hooks on all files, run:
+
+```bash
+pre-commit run --all-files
+```
