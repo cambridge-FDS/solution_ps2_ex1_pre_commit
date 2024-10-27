@@ -30,3 +30,9 @@ To run pre-commit hooks on all files, run:
 ```bash
 pre-commit run --all-files
 ```
+
+to run it on a specific file, run:
+
+```bash
+pre-commit run --files <file>
+```
